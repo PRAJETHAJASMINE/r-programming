@@ -1,0 +1,22 @@
+mat<- matrix(c(1,2,3,4),2,2)
+> sqrdMtx<-mat^2
+> print(sqrdMtx)
+     [,1] [,2]
+[1,]    1    9
+[2,]    4   16
+
+
+diag_mat<- diag(3,3,3)
+> print(diag_mat)
+     [,1] [,2] [,3]
+[1,]    3    0    0
+[2,]    0    3    0
+[3,]    0    0    3
+
+
+ identity_mat<-diag(3)
+> print(identity_mat)
+     [,1] [,2] [,3]
+[1,]    1    0    0
+[2,]    0    1    0
+[3,]    0    0    1
